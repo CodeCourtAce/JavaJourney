@@ -2,31 +2,30 @@
 module.exports = {
     country: "Ethiopia",
     coffeeHistory: {
-        discovery: "Ethiopia is the birthplace of coffee as long ago as 850 CE. \
-        The story goes that a goat herder named Kaldi discovered coffee when he noticed that his goats were more energetic after eating the red berries from a certain tree.\
-        He tried the berries himself and felt the same energy. He brought the berries to a local monastery, where the monks disapproved of the berries and threw them into the fire. \
-        The aroma of the roasting beans attracted the monks, who raked the beans out of the fire, crushed them, and dissolved them in hot water to create the first cup of coffee.",
-        development: "Coffee cultivation began in Ethiopia in the 9th century. \
-        Traditional Ethiopian coffee is grown in the forest under the shade of trees. \
-        The coffee is harvested by hand, and the beans are sun-dried. \
-        Then the beans are grinded and brewed in a traditional Ethiopian coffee ceremony.",
+        discovery: "Ethiopia is the birthplace of coffee, with its discovery dating back as early as 850 CE. \
+        Legend tells the story of Kaldi, a goat herder who noticed his goats became energetic after eating red berries from a certain tree. \
+        Kaldi tried the berries himself and shared them with monks, who found that the berries helped them stay awake during prayers. \
+        This marked the beginning of coffee as both a crop and a cultural tradition.",
+        development: "Coffee cultivation began in Ethiopia's forested highlands, where it still grows naturally. \
+        Ethiopia's coffee is often referred to as 'heirloom,' as the beans are indigenous varieties that have evolved over centuries in diverse climates. \
+        Coffee farming in Ethiopia is a vital part of the economy, with millions of smallholder farmers producing coffee using traditional practices.",
     },
     beanProduction: {
-        falvorProfiles: "Ethiopia`s coffee beans are often referred to as 'heirloom' varieties. \
-        These are wild, indigenous beans that have evolved over centuries in the country`s diverse climates.",
+        flavorProfiles: "Ethiopian coffee beans are renowned for their diverse flavor profiles, ranging from floral and tea-like to bold and fruity. \
+        They are often processed using both washed (wet) and natural (dry) methods, each bringing out unique characteristics.",
         regions: [
             {
-            region: "Yirgacheffe: Known for: Floral and tea-like notes, often with citrus or berry undertones.",
-            region: "Sidamo: Known for: Sweet, fruity, and complex flavors, with a balanced acidity.",
-            region: "Harrar: Known for: Bold, fruity, and wine-like flavors, often with chocolatey notes.",
+                region: "Yirgacheffe: Known for floral, tea-like notes with citrus or berry undertones.",
+                region: "Sidamo: Produces sweet, fruity coffee with a balanced acidity and complex flavors.",
+                region: "Harrar: Recognized for bold, wine-like flavors with hints of berries and chocolate."
             }
         ]
     },
     brewingMethods: {
-        traditional: "Ethiopian coffee is traditionally brewed in a 'jebena,' a clay pot with a long neck. \
-        The coffee is brewed with water and sugar, and then poured into small cups.\
-        The coffee is often served with popcorn or other snacks.",
-        modern: "Ethiopian coffee is also brewed using modern methods, such as the pour-over, French press, or espresso machine. \
-        The coffee is often brewed with a light to medium roast to highlight the beans` unique flavors.",
+        traditional: "Ethiopia is famous for its traditional coffee ceremony, a ritual that involves roasting green coffee beans, grinding them, and brewing in a 'jebena,' a clay pot. \
+        The coffee is poured from a height to create a frothy top and served in small cups, often accompanied by snacks like popcorn.",
+        modern: "While the traditional ceremony remains central to Ethiopian coffee culture, modern brewing methods such as French press, pour-over, and espresso are gaining popularity, especially in urban areas. \
+        Light to medium roasts are favored to highlight the beans' vibrant flavors.",
     },
-}
+    }
+    
