@@ -1,6 +1,9 @@
 
 module.exports = {
     country: "Ethiopia",
+    output: {
+        percentage: "Ethiopia is the largest coffee producer in Africa and the fifth-largest producer in the world, accounting for around 4% of global coffee production."
+    },
     coffeeHistory: {
         discovery: "Ethiopia is the birthplace of coffee, with its discovery dating back as early as 850 CE. \
         Legend tells the story of Kaldi, a goat herder who noticed his goats became energetic after eating red berries from a certain tree. \

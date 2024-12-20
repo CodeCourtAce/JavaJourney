@@ -1,6 +1,9 @@
 
 module.exports = {
     country: "Honduras",
+    output: {
+        percentage: "Honduras is the sixth-largest coffee-producing countries in the world, accounting for around 4% of global coffee production."
+    },
 coffeeHistory: {
     discovery: "Coffee was introduced to Honduras in the late 18th century, likely by Spanish settlers. \
     However, the country`s coffee industry began to thrive in the 20th century with investments in infrastructure and farming techniques. \

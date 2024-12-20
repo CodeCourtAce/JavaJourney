@@ -1,6 +1,9 @@
 
 module.exports = {
     country: "India",
+    output: {
+        percentage: "India is the seventh-largest coffee producer in the world, accounting for around 3% of global coffee production."
+    },
     coffeeHistory: {
         discovery: "Coffee was introduced to India in the 17th century by Baba Budan, a Sufi saint, who is said to have smuggled seven coffee seeds from Yemen during his pilgrimage to Mecca. \
         He planted these seeds in the Chandragiri Hills of Karnataka, marking the beginning of coffee cultivation in India.",

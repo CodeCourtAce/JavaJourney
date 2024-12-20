@@ -1,6 +1,9 @@
 
 module.exports = {
     country: "Indonesia",
+    output: {
+        percentage: "Indonesia is the fourth-largest coffee producer in the world, accounting for around 7% of global coffee production."
+    },
     coffeeHistory: {
         discovery: "Coffee was introduced to Indonesia by Dutch traders in the late 1600s. \
         The Dutch East India Company established coffee plantations in Java, making Indonesia one of the first places outside of Africa and Arabia to cultivate coffee. \

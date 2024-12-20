@@ -1,6 +1,9 @@
 
 module.exports = {
     country: "Brazil",
+    output: {
+        percentage: "Brazil is the world's largest coffee producer, accounting for over 40% of global coffee production."
+    },
     coffeeHistory: {
         discovery: "Coffee was introduced to Brazil in 1727 by Francisco de Melo Palheta, who allegedly smuggled coffee seeds from French Guiana. \
         The tropical climate and fertile soil provided ideal conditions for coffee cultivation, and by the 19th century, Brazil became the world’s largest coffee producer—a title it still holds today.",
