@@ -1,5 +1,5 @@
 
-import { CoffeeRegion } from '../models';
+import CoffeeRegion from '../models/coffeeRegion.js';
 
 const resolvers = {
   Query: {

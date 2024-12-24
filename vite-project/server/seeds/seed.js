@@ -9,16 +9,14 @@ import kenya from './coffeeData/africa/kenya.js';
 // Asia
 import india from './coffeeData/asia/india.js';
 import indonesia from './coffeeData/asia/indonesia.js';
+import turkey from './coffeeData/asia/turkey.js';
 import vietnam from './coffeeData/asia/vietnam.js';
+import yemen from './coffeeData/asia/yemen.js';
 
 // Europe
 import france from './coffeeData/europe/france.js';
 import greece from './coffeeData/europe/greece.js';
 import italy from './coffeeData/europe/italy.js';
-
-// Middle East
-import turkey from './coffeeData/middleEast/turkey.js';
-import yemen from './coffeeData/middleEast/yemen.js';
 
 // North America
 import canada from './coffeeData/northAmerica/canada.js';
