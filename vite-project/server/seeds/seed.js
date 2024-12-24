@@ -1,26 +1,36 @@
-
 import db from '../config/connection.js';
 import CoffeeRegion from '../models/coffeeRegion.js';
 
-import ethiopia from './ethiopia.js';
-import ivoryCoast from './ivoryCoast.js';
-import kenya from './kenya.js';
-import india from './india.js';
-import indonesia from './indonesia.js';
-import vietnam from './vietnam.js';
-import france from './france.js';
-import greec from './greec.js';
-import italy from './italy.js';
-import turkey from './turkey.js';
-import yeemen from './yeemen.js';
-import canada from './canada.js';
-import mexico from './mexico.js';
-import unitedStates from './unitedStates.js';
-import brazil from './brazil.js';
-import colombia from './colombia.js';
-import cuba from './cuba.js';
-import honduras from './honduras.js';
-import peru from './peru.js';
+// Africa
+import ethiopia from './coffeeData/africa/ethiopia.js';
+import ivoryCoast from './coffeeData/africa/ivoryCoast.js';
+import kenya from './coffeeData/africa/kenya.js';
+
+// Asia
+import india from './coffeeData/asia/india.js';
+import indonesia from './coffeeData/asia/indonesia.js';
+import vietnam from './coffeeData/asia/vietnam.js';
+
+// Europe
+import france from './coffeeData/europe/france.js';
+import greece from './coffeeData/europe/greece.js';
+import italy from './coffeeData/europe/italy.js';
+
+// Middle East
+import turkey from './coffeeData/middleEast/turkey.js';
+import yemen from './coffeeData/middleEast/yemen.js';
+
+// North America
+import canada from './coffeeData/northAmerica/canada.js';
+import mexico from './coffeeData/northAmerica/mexico.js';
+import unitedStates from './coffeeData/northAmerica/unitedStates.js';
+
+// South America
+import brazil from './coffeeData/southAmerica/brazil.js';
+import colombia from './coffeeData/southAmerica/colombia.js';
+import cuba from './coffeeData/southAmerica/cuba.js';
+import honduras from './coffeeData/southAmerica/honduras.js';
+import peru from './coffeeData/southAmerica/peru.js';
 
 const seedDatabase = async () => {
     try {
@@ -33,10 +43,10 @@ const seedDatabase = async () => {
             indonesia,
             vietnam,
             france,
-            greec,
+            greece,
             italy,
             turkey,
-            yeemen,
+            yemen,
             canada,
             mexico,
             unitedStates,
@@ -51,8 +61,10 @@ const seedDatabase = async () => {
         process.exit(0);
     } catch (error) {
         console.error(error);
+        process.exit(1);
     }
 };
-db.once(`open`, () => {
+
+db.once('open', () => {
     seedDatabase();
 });
