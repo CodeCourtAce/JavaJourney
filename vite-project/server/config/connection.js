@@ -1,5 +1,5 @@
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 // temporary connection to local database
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/coffee-regions', {
@@ -9,4 +9,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/coffee-regions'
     useFindAndModify: false
 });
 
-module.exports = mongoose.connection;
+export default mongoose.connection;
