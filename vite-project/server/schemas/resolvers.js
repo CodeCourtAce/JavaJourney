@@ -1,5 +1,5 @@
 
-const { CoffeeRegion } = require('../models');
+import { CoffeeRegion } from '../models';
 
 const resolvers = {
   Query: {
@@ -27,5 +27,5 @@ const resolvers = {
   }
 };
 
-module.exports = resolvers;
+export default resolvers;
 
