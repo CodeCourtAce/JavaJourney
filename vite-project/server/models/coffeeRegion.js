@@ -1,4 +1,5 @@
-const { Schema, model } = require('mongoose');
+import mongoose from 'mongoose';
+const { Schema, model } = mongoose;
 
 // I believe this is where we will match the API data to the schema
 const coffeeRegionSchema = new Schema({
@@ -43,4 +44,4 @@ const coffeeRegionSchema = new Schema({
 });
 
 const CoffeeRegion = model('CoffeeRegion', coffeeRegionSchema);
-module.exports = CoffeeRegion;
+export default CoffeeRegion;
