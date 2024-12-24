@@ -1,5 +1,5 @@
 
-module.exports = {
+const indiaData = {
     country: "India",
     output: {
         percentage: "India is the seventh-largest coffee producer in the world, accounting for around 3% of global coffee production."
@@ -27,5 +27,7 @@ module.exports = {
         The coffee is brewed strong and mixed with hot milk and sugar, then served frothy in a stainless-steel tumbler and dabara (a small bowl).",
         modern: "Espresso-based drinks are growing in popularity, especially in urban cafes, where cappuccinos, lattes, and Americanos are commonly enjoyed. \
         Cold coffee, often blended with milk and sugar, is a favorite during the summer months.",
-    },
     }
+    };
+
+export default indiaData;

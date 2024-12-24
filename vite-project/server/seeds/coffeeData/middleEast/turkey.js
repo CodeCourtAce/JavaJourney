@@ -1,5 +1,5 @@
 
-module.exports = {
+const turkeyData = {
     country: "Turkey",
     coffeeHistory: {
         discovery: "Coffee was introduced to Turkey in the 16th century during the Ottoman Empire, likely through Yemen. \
@@ -27,4 +27,6 @@ module.exports = {
         modern: "While traditional methods dominate, modern adaptations include using electric Turkish coffee makers or serving Turkish coffee alongside espresso-based drinks in fusion cafes. \
         Coffee culture in Turkey has also embraced specialty beans and brewing techniques for a global audience.",
     },
-    }
+    };
+
+    export default turkeyData;

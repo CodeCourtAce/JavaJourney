@@ -1,5 +1,5 @@
 
-module.exports = {
+const indonesiaData = {
     country: "Indonesia",
     output: {
         percentage: "Indonesia is the fourth-largest coffee producer in the world, accounting for around 7% of global coffee production."
@@ -28,5 +28,7 @@ module.exports = {
         Another traditional drink is 'kopi joss,' which involves adding a burning piece of charcoal to the coffee for a unique, smoky flavor.",
         modern: "Espresso-based drinks are gaining popularity in urban cafes, while specialty coffee shops are showcasing Indonesia's single-origin beans through pour-over and AeroPress methods. \
         Cold coffee with sugar and condensed milk is also a favorite, especially in warmer regions.",
-    },
     }
+    };
+
+export default indonesiaData;

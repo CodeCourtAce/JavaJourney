@@ -1,5 +1,5 @@
 
-module.exports = {
+const ethiopiaData = {
     country: "Ethiopia",
     output: {
         percentage: "Ethiopia is the largest coffee producer in Africa and the fifth-largest producer in the world, accounting for around 4% of global coffee production."
@@ -29,6 +29,8 @@ module.exports = {
         The coffee is poured from a height to create a frothy top and served in small cups, often accompanied by snacks like popcorn.",
         modern: "While the traditional ceremony remains central to Ethiopian coffee culture, modern brewing methods such as French press, pour-over, and espresso are gaining popularity, especially in urban areas. \
         Light to medium roasts are favored to highlight the beans' vibrant flavors.",
-    },
     }
+    };
+
+    export default ethiopiaData;
     

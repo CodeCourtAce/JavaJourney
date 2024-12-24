@@ -1,5 +1,5 @@
 
-module.exports = {
+const peruData = {
     country: "Peru",
     coffeeHistory: {
         discovery: "Coffee was introduced to Peru in the mid-18th century by Spanish colonists. \
@@ -25,4 +25,6 @@ module.exports = {
         modern: "Peruvian coffee is gaining attention in specialty coffee shops, where pour-over, French press, and espresso-based methods highlight the unique characteristics of single-origin beans. \
         Cold brew has also become popular in urban areas for showcasing the beans' clean and refreshing profiles."
     },
-    }
+    };
+
+    export default peruData;

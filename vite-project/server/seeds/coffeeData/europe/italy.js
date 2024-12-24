@@ -1,5 +1,5 @@
 
-module.exports = {
+const italyData = {
     country: "Italy",
     coffeeHistory: {
         discovery: "Coffee was introduced to Italy in the late 16th century, primarily through Venetian trade with the Ottoman Empire. \
@@ -36,4 +36,6 @@ module.exports = {
         ],
         socialLife: "Coffee bars are a cornerstone of Italian daily life, serving as places to socialize, catch up with friends, or take a quick break from work."
     },
-    }
+    };
+
+    export default italyData;

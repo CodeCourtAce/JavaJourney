@@ -1,5 +1,5 @@
 
-module.exports = {
+const unitedStatesData = {
     country: "United States",
     coffeeHistory: {
         discovery: "Coffee became popular in the United States during the late 18th century, particularly after the Boston Tea Party in 1773. \
@@ -48,4 +48,6 @@ module.exports = {
         ],
         socialLife: "Coffee shops have become integral to American culture, serving as social hubs, workspaces, and community centers. Specialty coffee movements have further elevated coffee to an artisanal experience."
     },
-    }
+    };
+
+    export default unitedStatesData;

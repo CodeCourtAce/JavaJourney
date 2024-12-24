@@ -1,5 +1,5 @@
 
-module.exports = {
+const vietnamData = {
     country: "Vietnam",
     output: {
         percentage: "Vietnam is the second-largest coffee producer in the world, accounting for around 20% of global coffee production."
@@ -27,5 +27,7 @@ module.exports = {
         The coffee is mixed with sweetened condensed milk and poured over ice. Another traditional drink is 'cà phê trứng' (egg coffee), made with whipped egg yolk, sugar, and coffee, creating a creamy, custard-like drink.",
         modern: "Urban cafes and specialty coffee shops in Vietnam have embraced modern brewing techniques like espresso, pour-over, and cold brew, \
         often incorporating local robusta beans to create unique drinks like coconut coffee or yogurt coffee.",
-    },
     }
+    };
+
+    export default vietnamData;

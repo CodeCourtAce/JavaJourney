@@ -1,5 +1,5 @@
 
-module.exports = {
+const cubaData = {
     country: "Cuba",
 coffeeHistory: {
     discovery: "Coffee was introduced to Cuba in 1748 by Spanish colonists and became a key agricultural product in the 19th century. \
@@ -40,5 +40,7 @@ interestingFacts: {
     ],
     export: "Cuba exports small quantities of coffee, primarily Arabica beans, which are highly prized in specialty markets for their robust flavor."
 },
-}
+};
+
+export default cubaData;
 

@@ -1,5 +1,5 @@
 
-module.exports = {
+const greeceData = {
     country: "Greece",
     coffeeHistory: {
         discovery: "Coffee was introduced to Greece in the 17th century during Ottoman rule. \
@@ -35,4 +35,6 @@ module.exports = {
         ],
         socialLife: "Kafeneia remain popular in Greece, providing a place for locals to gather, socialize, and discuss politics or play games like backgammon."
     },
-    }
+    };
+
+    export default greeceData;

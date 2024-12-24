@@ -1,5 +1,5 @@
 
-module.exports = {
+const mexicoData = {
     country: "Mexico",
     coffeeHistory: {
         discovery: "Coffee was introduced to Mexico in the late 18th century by Spanish colonists. \
@@ -48,4 +48,6 @@ module.exports = {
         ],
         socialLife: "Coffee is a staple of social gatherings in Mexico, whether it`s shared among family, friends, or during celebrations. Coffeehouses and markets play a central role in connecting people with local coffee culture."
     },
-    }
+    };
+
+    export default mexicoData;

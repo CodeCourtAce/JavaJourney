@@ -1,5 +1,5 @@
 
-module.exports = {
+const hondurasData = {
     country: "Honduras",
     output: {
         percentage: "Honduras is the sixth-largest coffee-producing countries in the world, accounting for around 4% of global coffee production."
@@ -28,4 +28,6 @@ brewingMethods: {
     modern: "Specialty coffee shops in urban areas have embraced modern brewing techniques like pour-over, AeroPress, and espresso machines. \
     These methods showcase the complexity of Honduran single-origin beans, especially those from high-altitude regions."
 },
-}
+};
+
+export default hondurasData;

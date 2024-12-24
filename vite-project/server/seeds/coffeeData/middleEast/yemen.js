@@ -1,5 +1,5 @@
 
-module.exports = {
+const yemenData = {
     country: "Yemen",
     coffeeHistory: {
         discovery: "Yemen is considered one of the earliest countries to cultivate coffee, with records dating back to the 15th century. \
@@ -27,4 +27,6 @@ module.exports = {
         modern: "While traditional methods prevail in rural areas, Yemeni coffee has found its way into specialty coffee shops worldwide. \
         The beans are used in pour-over and espresso preparations to highlight their unique flavor profiles.",
     },
-    }
+    };
+
+    export default yemenData;

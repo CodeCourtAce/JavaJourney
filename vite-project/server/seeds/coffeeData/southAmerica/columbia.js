@@ -1,5 +1,5 @@
 
-module.exports = {
+const columbiaData = {
     country: "Colombia",
     output: {
         percentage: "Colombia is the third-largest coffee producer in the world, accounting for around 10% of global coffee production."
@@ -40,4 +40,6 @@ module.exports = {
         modern: "In urban areas, specialty coffee shops are popularizing pour-over methods, French press, and espresso-based drinks to showcase single-origin beans. \
         Cold brew is also gaining traction as a refreshing way to enjoy Colombian coffee."
     },
-    }
+    };
+
+    export default columbiaData;

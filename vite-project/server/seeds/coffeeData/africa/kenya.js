@@ -1,5 +1,5 @@
 
-module.exports = {
+const kenyaData = {
     country: "Kenya",
     coffeeHistory: {
         discovery: "Coffee was introduced to Kenya by French missionaries in the late 19th century, who brought Bourbon coffee plants from Réunion Island. \
@@ -26,5 +26,7 @@ module.exports = {
         Another popular method involves brewing coffee with spices like cardamom or ginger for added flavor.",
         modern: "Kenya has embraced modern brewing techniques, including pour-over methods like Chemex and V60, which highlight the beans' bright acidity and complex flavors. \
         Espresso-based drinks are also popular in urban coffee shops, showcasing Kenyan coffee's versatility.",
-    },
     }
+    };
+
+    export default kenyaData;

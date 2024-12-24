@@ -1,6 +1,6 @@
 
 
-module.exports = {
+const ivoryCoastData = {
     country: "Ivory Coast",
     coffeeHistory: {
         discovery: "Coffee was introduced to the Ivory Coast by French colonists in the late 19th century. \
@@ -27,6 +27,8 @@ module.exports = {
         Street vendors often serve coffee in small, disposable cups for on-the-go consumption.",
         modern: "While traditional methods prevail, modern brewing techniques such as espresso and French press are gaining popularity in urban areas. \
         The robusta beans' bold flavor makes them suitable for creating rich espresso-based drinks.",
-    },
     }
+    };
+
+    export default ivoryCoastData;
     

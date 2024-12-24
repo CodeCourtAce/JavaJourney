@@ -1,5 +1,5 @@
 
-module.exports = {
+const brazilData = {
     country: "Brazil",
     output: {
         percentage: "Brazil is the world's largest coffee producer, accounting for over 40% of global coffee production."
@@ -27,4 +27,6 @@ module.exports = {
         modern: "In urban areas, espresso-based drinks like cappuccinos and lattes are increasingly popular. \
         Specialty coffee shops focus on single-origin brews, highlighting the unique flavor profiles of Brazilian coffee through pour-over and AeroPress methods.",
     },
-    }
+    };
+
+    export default brazilData;

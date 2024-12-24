@@ -1,5 +1,5 @@
 
-module.exports = {
+const canadaData = {
     country: "Canada",
     coffeeHistory: {
         discovery: "Coffee became popular in Canada in the 18th century, introduced through European trade and influenced by British and French settlers. \
@@ -35,4 +35,6 @@ module.exports = {
             "Coffee is often paired with snacks like donuts, muffins, or bagels, reinforcing its role in social and workplace settings."
         ],
     },
-    }
+    };
+
+    export default canadaData;

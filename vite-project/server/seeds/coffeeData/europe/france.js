@@ -1,5 +1,5 @@
 
-module.exports = {
+const franceData = {
     country: "France",
     coffeeHistory: {
         discovery: "Coffee was introduced to France in the mid-17th century through trade with the Ottoman Empire. \
@@ -32,4 +32,6 @@ module.exports = {
         ],
         socialLife: "Coffeehouses in France have historically served as centers of creativity and intellectual exchange, fostering art and literature movements."
     },
-    }
+    };
+
+    export default franceData;
