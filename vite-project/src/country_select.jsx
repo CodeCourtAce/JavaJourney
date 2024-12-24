@@ -13,6 +13,10 @@ const LIST_COUNTRIES = gql`
     countries (filter: { code: { in: ["US", "CA", "MX", "ET", "CI", "KE", "IN", "ID", "FR", "GR", "IT", "TR", "YE", "BR", "CO", "CU", "HN", "PE", "GT", "CR"] } }) {
       name
       code
+      continent { 
+      name 
+      code
+      }
     }
   }
 `
@@ -28,6 +32,8 @@ const CountrySelect = () => {
 
   //creates new array of countries sorted by name over code
   const sortedCountries = [...data.countries].sort((a, b) => a.name.localeCompare(b.name))
+  
+  console.log(sortedCountries)
 
   return (
     <select value={country} onChange={(event) => setCountry(event.target.value)}>
