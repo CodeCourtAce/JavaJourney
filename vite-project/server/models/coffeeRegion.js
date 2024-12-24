@@ -1,17 +1,15 @@
 const { Schema, model } = require('mongoose');
-const { beanProduction } = require('../seeds/coffeeData/asia/india');
-const { culturalSignificance, regionalPreparations } = require('../seeds/coffeeData/northAmerica/unitedStates');
 
 // I believe this is where we will match the API data to the schema
 const coffeeRegionSchema = new Schema({
     countryCode: {
         type: String,
-        requireds: true,
+        required: true,
         unique: true
     },
     country: {
         type: String,
-        requireds: true,
+        required: true,
     },
     output: {
         percentage: String
@@ -34,9 +32,7 @@ const coffeeRegionSchema = new Schema({
     },
     regionalPreparations: {
         traditional: [String],
-        modern: [String]
-    },
-    regionalPreparations: {
+        modern: [String],
         traditions: [String],
         socialLife: String
     },
@@ -45,3 +41,6 @@ const coffeeRegionSchema = new Schema({
         socialLife: String
     }
 });
+
+const CoffeeRegion = model('CoffeeRegion', coffeeRegionSchema);
+module.exports = CoffeeRegion;
