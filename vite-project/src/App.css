@@ -223,3 +223,15 @@ body {
     opacity: 1;
   }
 }
+
+/* Coffee Gif */
+.coffee-gif {
+  width: 200px; /* Smaller size */
+  height: 200px; /* Add missing semicolon */
+  margin-top: -20px;
+  margin-left: 100px; /* Move to the right */
+  margin-right: 100px; /* Add margin to the right */
+  border-radius: 10px; /* Optional: round the edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+  animation: slideInText 1s ease-in-out forwards; /* Apply the text slide-in animation */
+}

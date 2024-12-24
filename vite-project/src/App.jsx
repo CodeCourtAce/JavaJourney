@@ -41,21 +41,26 @@ const App = () => {
       </header>
 
       <section className="hero">
-  <div className="image-container">
-    <div className="image-box image1"></div>
-    <div className="image-box image2"></div>
-    <div className="image-box image3"></div>
-    <div className="image-box image4"></div>
-  </div>
-  <div className="hero-content">
-    <h2 className="hero-title">Discover Coffee's Journey</h2>
-    <p className="hero-subtitle">
-      Explore the rich history and diverse flavors of coffee <br />
-      from around the world!
-    </p>
-  </div>
-</section>
-
+        <div className="image-container">
+          <div className="image-box image1"></div>
+          <div className="image-box image2"></div>
+          <div className="image-box image3"></div>
+          <div className="image-box image4"></div>
+        </div>
+        <div className="hero-content">
+          <h2 className="hero-title">Discover Coffee's Journey</h2>
+          <p className="hero-subtitle">
+            Explore the rich history and diverse flavors of coffee <br />
+            from around the world!
+          </p>
+          {/* Add your GIF here */}
+          <img
+            src="/coffee-animation.gif"
+            alt="Animated coffee gif"
+            className="coffee-gif"
+          />
+        </div>
+      </section>
 
       <section className="coffee-facts">
         <h2>Learn About Coffee Around the World (this is a placeholder for the globe code) 😊</h2>
