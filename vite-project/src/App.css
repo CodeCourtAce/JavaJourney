@@ -235,3 +235,85 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
   animation: slideInText 1s ease-in-out forwards; /* Apply the text slide-in animation */
 }
+
+/* General Reset */
+body, h1, h2, p { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh; /* Full-screen height */
+  color: #d4af7a; /* Coffee gold */
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* Add spacing between elements */
+}
+
+.coffee-cup {
+  width: 100px; /* Adjust size of the coffee cup image */
+  margin-bottom: 1rem; /* Space below the coffee cup */
+}
+
+.country-selector {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #d4af7a; /* Coffee gold border */
+  background-color: #000; /* Black background */
+  color: #d4af7a; /* Coffee gold text */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.country-selector:focus {
+  outline: none;
+  border-color: #ffd700; /* Highlight on focus */
+}
+
+.hero-title {
+  margin-top: 1rem; /* Space above the title */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #d4af7a; /* Coffee gold text */
+}
+
+.coffee-gif {
+  width: 150px; /* Adjust gif size */
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}

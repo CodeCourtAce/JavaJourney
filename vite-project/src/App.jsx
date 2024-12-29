@@ -16,6 +16,40 @@ const Footer = () => {
   );
 };
 
+// Add your Login component here
+const UserApp = () => {
+  const [user, setUser] = useState(null);
+
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem('token'); // Remove token on logout
+  };
+
+  return (
+    <div className="app">
+      <header className="header">
+        <h1 className="logo">Java Journey</h1>
+        {user ? (
+          <button onClick={handleLogout} className="logout-button">
+            Logout
+          </button>
+        ) : null}
+      </header>
+
+      {!user ? (
+        <Login setUser={setUser} />
+      ) : (
+        <div>
+          <h2>Welcome, {user.name}!</h2>
+          <p>Explore coffee facts and more!</p>
+        </div>
+      )}
+
+      <Footer />
+    </div>
+  );
+};
+
 const App = () => {
   const [selectedPlace, setSelectedPlace] = useState(null);
 
