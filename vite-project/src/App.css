@@ -20,12 +20,15 @@ body {
 /* Header */
 .header {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 1rem 2rem;
+  padding: 0.1rem 0rem; /* Adjust padding for better spacing */
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1200%; /* Ensure it spans the entire width of the viewport */
+  margin: 0 auto; /* Center the header if max-width is applied */
   z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Optional: Add a subtle shadow */
 }
+
 
 /* Coffee cup logo */
 .logo {
@@ -199,18 +202,19 @@ body {
 }
 
 .hero-title {
-  font-size: 3rem;
+  margin: 1rem 0; /* Add vertical spacing above and below */
+  font-size: 3rem; /* Adjust title size */
   font-weight: bold;
-  margin-bottom: 1rem;
   animation: slideInText 1s ease-in-out forwards;
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
-  line-height: 1.8;
+  margin: -1.5rem 0; /* Add spacing below the title and above the button */
+  font-size: 1.5rem; /* Adjust subtitle size */
+  line-height: 1.8; /* Improve readability */
   animation: slideInText 1s ease-in-out forwards;
-  
 }
+
 
 /* Text Slide-in Animation */
 @keyframes slideInText {
@@ -282,6 +286,7 @@ body {
   margin-bottom: 1rem; /* Space below the coffee cup */
 }
 
+/* Country Selector */
 .country-selector {
   padding: 0.75rem;
   font-size: 1rem;
@@ -289,9 +294,12 @@ body {
   border: 1px solid #d4af7a; /* Coffee gold border */
   background-color: #000; /* Black background */
   color: #d4af7a; /* Coffee gold text */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute; /* Allows precise positioning */
+  top: 80%; /* Adjust for vertical placement */
+  left: 45%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the button */
+  z-index: 10; /* Ensure it appears above other elements */
+  animation: slideInText 1s ease-in-out forwards;
 }
 
 .country-selector:focus {
@@ -299,17 +307,19 @@ body {
   border-color: #ffd700; /* Highlight on focus */
 }
 
+
+
 .hero-title {
   margin-top: 1rem; /* Space above the title */
   font-size: 2rem;
   font-weight: bold;
 }
 
-.hero-subtitle {
+/* .hero-subtitle {
   margin-top: 1rem;
   font-size: 1.2rem;
   color: #d4af7a; /* Coffee gold text */
-}
+
 
 .coffee-gif {
   width: 150px; /* Adjust gif size */
