@@ -29,5 +29,5 @@ For any questions, please contact us at:
 #### 
 
 
-#### GitHub: 
-#### 
+#### GitHub: https://github.com/CodeCourtAce/JavaJourney
+#### Render
