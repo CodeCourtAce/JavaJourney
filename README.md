@@ -18,10 +18,10 @@
 
 
 ## Contributors
-#### 
-####
-####
-####
+#### Gianna D'Aconti
+#### Jacob Rowe
+#### Jake Walter
+#### Jermaine Strand
 
 ## Questions
 For any questions, please contact us at: 
