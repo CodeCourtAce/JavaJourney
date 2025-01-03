@@ -1,35 +1,125 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <p>
+        &copy; {new Date().getFullYear()} Java Journey. All rights reserved.
+      </p>
+      <p>
+        Made By Jake, Jacob, Jermaine, & Gianna.
+        <br />
+        Powered by the love of coffee &nbsp;☕
+      </p>
+    </footer>
+  );
+};
+
+// Add your Login component here
+const UserApp = () => {
+  const [user, setUser] = useState(null);
+
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem('token'); // Remove token on logout
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="app">
+      <header className="header">
+        <h1 className="logo">Java Journey</h1>
+        {user ? (
+          <button onClick={handleLogout} className="logout-button">
+            Logout
+          </button>
+        ) : null}
+      </header>
 
-export default App
+      {!user ? (
+        <Login setUser={setUser} />
+      ) : (
+        <div>
+          <h2>Welcome, {user.name}!</h2>
+          <p>Explore coffee facts and more!</p>
+        </div>
+      )}
+
+      <Footer />
+    </div>
+  );
+};
+
+const App = () => {
+  const [selectedPlace, setSelectedPlace] = useState(null);
+
+  const coffeeFacts = {
+    Ethiopia: "Ethiopia is known as the birthplace of coffee. The legend of Kaldi and his goats discovering coffee originates here.",
+    Brazil: "Brazil is the largest coffee producer in the world, contributing about a third of the global coffee supply.",
+    Colombia: "Colombian coffee is famous for its smooth, mild flavor and is often grown in the Andes mountains.",
+    Italy: "Italy is renowned for its espresso culture and is home to iconic coffee drinks like cappuccino and macchiato.",
+    Vietnam: "Vietnam is the second-largest coffee producer, known for its Robusta beans and unique Vietnamese iced coffee.",
+  };
+
+  const handlePlaceClick = (place) => {
+    setSelectedPlace(place);
+  };
+
+  return (
+    <div className="app">
+      <header className="header">
+        <h1 className="logo">
+          <img src="/public/coffee.png" alt="Coffee Cup" className="coffee-cup" />
+          Java Journey
+        </h1>
+      </header>
+
+      <section className="hero">
+        <div className="image-container">
+          <div className="image-box image1"></div>
+          <div className="image-box image2"></div>
+          <div className="image-box image3"></div>
+          <div className="image-box image4"></div>
+        </div>
+        <div className="hero-content">
+          <h2 className="hero-title">Discover Coffee's Journey</h2>
+          <p className="hero-subtitle">
+            Explore the rich history and diverse flavors of coffee <br />
+            from around the world!
+          </p>
+          {/* Add your GIF here */}
+          <img
+            src="/coffee-animation.gif"
+            alt="Animated coffee gif"
+            className="coffee-gif"
+          />
+        </div>
+      </section>
+
+      <section className="coffee-facts">
+        <h2>Learn About Coffee Around the World (this is a placeholder for the globe code) 😊</h2>
+        <div className="places-list">
+          {Object.keys(coffeeFacts).map((place) => (
+            <button
+              key={place}
+              className="place-button"
+              onClick={() => handlePlaceClick(place)}
+            >
+              {place}
+            </button>
+          ))}
+        </div>
+        {selectedPlace && (
+          <div className="fact-box">
+            <h3>{selectedPlace}</h3>
+            <p>{coffeeFacts[selectedPlace]}</p>
+          </div>
+        )}
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
