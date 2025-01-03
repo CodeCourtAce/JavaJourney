@@ -115,4 +115,4 @@ const App = () => {
   );
 };
 
-export default GlobeApp;
+export default App;

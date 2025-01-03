@@ -30,6 +30,54 @@ body {
 }
 
 
+
+/* Header Content Layout */
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 12000px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+}
+
+/* Explore Button Styling */
+.explore-button {
+  background-color: transparent;
+  color: #d4af7a;
+  border: 2px solid #d4af7a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+.explore-button:hover {
+  background-color: #d4af7a;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(212, 175, 122, 0.2);
+}
+
+.explore-button:active {
+  transform: translateY(0);
+}
+
+/* Update existing header styles */
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 /* Coffee cup logo */
 .logo {
   display: flex;
@@ -286,7 +334,7 @@ body {
   margin-bottom: 1rem; /* Space below the coffee cup */
 }
 
-/* Country Selector */
+/* Country Selector Button */
 .country-selector {
   padding: 0.75rem;
   font-size: 1rem;
@@ -327,3 +375,4 @@ body {
   margin-top: 1rem;
   border-radius: 10px;
 }
+
