@@ -1,3 +1,73 @@
+/* Existing styles */
+.app {
+  text-align: center;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+/* Globe page specific styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.globe-container {
+  width: 800px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.info-panel {
+  width: 400px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.coffee-history {
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.initial-message {
+  text-align: center;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.initial-message p {
+  margin: 10px 0;
+}
+
+/* New styles for the explore button */
+.explore-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #d4af7a;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #c19b69;
+}
+
 body, h1, h2, p {
   margin: 0;
   padding: 0;
@@ -294,7 +364,7 @@ body {
   border: 1px solid #d4af7a; /* Coffee gold border */
   background-color: #000; /* Black background */
   color: #d4af7a; /* Coffee gold text */
-  position: absolute; /* Allows precise positioning */
+  position: ; /* Allows precise positioning */
   top: 125%; /* Adjust for vertical placement */
   left: 45%; /* Center horizontally */
   transform: translateX(-50%); /* Center the button */
@@ -327,3 +397,5 @@ body {
   margin-top: 1rem;
   border-radius: 10px;
 }
+
+/* Keep all your existing styles below */
