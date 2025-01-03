@@ -97,24 +97,7 @@ const App = () => {
       </section>
 
       <section className="coffee-facts">
-        <h2>Learn About Coffee Around the World (this is a placeholder for the globe code) 😊</h2>
-        <div className="places-list">
-          {Object.keys(coffeeFacts).map((place) => (
-            <button
-              key={place}
-              className="place-button"
-              onClick={() => handlePlaceClick(place)}
-            >
-              {place}
-            </button>
-          ))}
-        </div>
-        {selectedPlace && (
-          <div className="fact-box">
-            <h3>{selectedPlace}</h3>
-            <p>{coffeeFacts[selectedPlace]}</p>
-          </div>
-        )}
+        <h2>Learn About Coffee Around the World 😊</h2>
       </section>
 
       <Footer />
