@@ -24,6 +24,7 @@ const LIST_COUNTRIES = gql`
 
 const CountrySelect = () => {
   const [country, setCountry] = useState('US');
+ // const [notinent, setContinent] = useContinent('NA');
   const { data, loading, error } = useQuery(LIST_COUNTRIES, { client });
 
   if (loading) return <p>Loading...</p>;
@@ -31,8 +32,10 @@ const CountrySelect = () => {
 
   //creates new array of countries sorted by name over code
   const sortedCountries = [...data.countries].sort((a, b) => a.name.localeCompare(b.name))
+
+  const selectedCountryData = data.countries.find(c => c.code === country);
   
-  console.log(sortedCountries)
+  console.log(selectedCountryData)
 
   return (
     <select
