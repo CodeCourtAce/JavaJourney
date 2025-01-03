@@ -12,7 +12,7 @@ const client = new ApolloClient({
 // GraphQL query to fetch countries' names and codes
 const LIST_COUNTRIES = gql`
   {
-    countries(filter: { code: { in: ["US", "CA", "MX", "ET", "CI", "KE", "IN", "ID", "FR", "GR", "IT", "TR", "YE", "BR", "CO", "CU", "HN", "PE", "GT", "CR"] } }) {
+    countries(filter: { code: { in: ["US", "CA", "MX", "ET", "CI", "KE", "IN", "ID", "FR", "GR", "IT", "TR", "YE", "BR", "CO", "CU", "HN", "PE", "GT"] } }) {
       name
       code
       continent { 
