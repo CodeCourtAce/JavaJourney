@@ -97,7 +97,7 @@ const App = () => {
       </section>
 
       <section className="coffee-facts">
-        <h2>Learn About Coffee Around the World 😊</h2>
+        <h2>Learn About Coffee Around the World </h2>
       </section>
 
       <Footer />
