@@ -295,7 +295,7 @@ body {
   background-color: #000; /* Black background */
   color: #d4af7a; /* Coffee gold text */
   position: absolute; /* Allows precise positioning */
-  top: 80%; /* Adjust for vertical placement */
+  top: 125%; /* Adjust for vertical placement */
   left: 45%; /* Center horizontally */
   transform: translateX(-50%); /* Center the button */
   z-index: 10; /* Ensure it appears above other elements */
