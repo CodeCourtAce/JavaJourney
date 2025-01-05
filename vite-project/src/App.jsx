@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import WorldCoffeeExplorer from "./components/WorldCoffeeExplorer";
+import CountrySelect from './country_select';
 import './App.css';
 // import GlobeApp from 'globe settings/src/App.js';
 
@@ -39,51 +42,51 @@ const Footer = () => {
 const App = () => {
   const [selectedPlace, setSelectedPlace] = useState(null);
 
-  const coffeeFacts = {
-    Ethiopia: "Ethiopia is known as the birthplace of coffee. The legend of Kaldi and his goats discovering coffee originates here.",
-    Brazil: "Brazil is the largest coffee producer in the world, contributing about a third of the global coffee supply.",
-    Colombia: "Colombian coffee is famous for its smooth, mild flavor and is often grown in the Andes mountains.",
-    Italy: "Italy is renowned for its espresso culture and is home to iconic coffee drinks like cappuccino and macchiato.",
-    Vietnam: "Vietnam is the second-largest coffee producer, known for its Robusta beans and unique Vietnamese iced coffee.",
-  };
-
-  const handlePlaceClick = (place) => {
-    setSelectedPlace(place);
-  };
-
   return (
-    <div className="app">
-      <Header />
-      
-      {/* Hero Section */}
-      <section className="hero">
-        <div className="image-container">
-          <div className="image-box image1"></div>
-          <div className="image-box image2"></div>
-          <div className="image-box image3"></div>
-          <div className="image-box image4"></div>
-        </div>
-        <div className="hero-content">
-          <h2 className="hero-title">Discover Coffee's Journey</h2>
-          <p className="hero-subtitle">
-            Explore the rich history and diverse flavors of coffee <br />
-            from around the world!
-          </p>
-          <img
-            src="/coffee-animation.gif"
-            alt="Animated coffee gif"
-            className="coffee-gif"
-          />
-        </div>
-      </section>
+    <Router>
+      <div className="app">
+        <header className="header">
+          <h1 className="logo">
+            <img src="/public/coffee.png" alt="Coffee Cup" className="coffee-cup" />
+            Java Journey
+          </h1>
+        </header>
 
-      {/* Coffee Facts Section */}
-      <section className="coffee-facts">
-        <h2>Learn About Coffee Around the World</h2>
-      </section>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <section className="hero">
+                <div className="image-container">
+                  <div className="image-box image1"></div>
+                  <div className="image-box image2"></div>
+                  <div className="image-box image3"></div>
+                  <div className="image-box image4"></div>
+                </div>
+                <div className="hero-content">
+                  <h2 className="hero-title">Discover Coffee's Journey</h2>
+                  <p className="hero-subtitle">
+                    Explore the rich history and diverse flavors of coffee <br />
+                    from around the world!
+                  </p>
+                  <Link to="/globe" className="explore-button">
+                    Explore World Coffee History
+                  </Link>
+                  <img
+                    src="/coffee-animation.gif"
+                    alt="Animated coffee gif"
+                    className="coffee-gif"
+                  />
+                </div>
+              </section>
+              <CountrySelect />
+            </>
+          } />
+          <Route path="/globe" element={<WorldCoffeeExplorer />} />
+        </Routes>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
