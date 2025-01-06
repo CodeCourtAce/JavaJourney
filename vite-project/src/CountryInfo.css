@@ -1,0 +1,38 @@
+.country-info-card {
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px; /* Adjust width for the card size */
+    box-shadow: 0 4px 8px #00000033;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #d4af7a; /* Coffee gold color */
+    margin-bottom: 10px;
+  }
+  
+  .card-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .card-content {
+    font-size: 1rem;
+    text-align: left;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow scrolling for long text */
+  }
+  
+  .loading-message {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  

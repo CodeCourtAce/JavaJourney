@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Globe from 'react-globe.gl';
+import { Link } from 'react-router-dom';
 
 const WorldCoffeeExplorer = () => {
   const [countries, setCountries] = useState({ features: [] });
@@ -63,7 +64,11 @@ const WorldCoffeeExplorer = () => {
 
   return (
     <div className="app">
-      <h1>World Coffee History Explorer</h1>
+      <header className="header">
+        <div className="header-content">
+          <h1 className="logo">World Coffee History Explorer</h1>
+        </div>
+      </header>
       <div className="container">
         <div className="globe-container">
           {globeReady && (
@@ -109,5 +114,3 @@ const WorldCoffeeExplorer = () => {
 };
 
 export default WorldCoffeeExplorer;
-
-
