@@ -130,10 +130,23 @@ const CountryInfo = ({ country }) => {
   const renderBrewingMethods = (brewingMethods) =>
     brewingMethods ? (
       <>
-        {brewingMethods.traditional && (
+        {brewingMethods.traditional && Array.isArray(brewingMethods.traditional) ? (
           <div>
-            <strong>Traditional:</strong> <p>{brewingMethods.traditional}</p>
+            <strong>Traditional:</strong>
+            <ul>
+              {brewingMethods.traditional.map((method, index) => (
+                <li key={index}>
+                  <strong>{method.name}:</strong> <p>{method.description}</p>
+                </li>
+              ))}
+            </ul>
           </div>
+        ) : (
+          brewingMethods.traditional && (
+            <div>
+              <strong>Traditional:</strong> <p>{brewingMethods.traditional}</p>
+            </div>
+          )
         )}
         {brewingMethods.modern && (
           <div>
@@ -188,4 +201,3 @@ const CountryInfo = ({ country }) => {
 };
 
 export default CountryInfo;
-
