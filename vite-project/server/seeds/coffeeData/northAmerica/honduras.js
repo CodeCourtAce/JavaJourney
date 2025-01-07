@@ -15,11 +15,15 @@ beanProduction: {
     flavorProfiles: "Honduran coffee is celebrated for its sweet, chocolatey, and fruity flavors, often accompanied by a balanced acidity. \
     Its flavor varies depending on the altitude and processing methods used.",
     regions: [
-        {
-            region: "Copán: Produces coffee with chocolatey and nutty notes, often balanced and smooth.",
-            region: "Marcala: Known for its high-altitude coffee with bright acidity and fruity undertones.",
+          {
+            region: "Copán: Produces coffee with chocolatey and nutty notes, often balanced and smooth."
+          },
+          {
+            region: "Marcala: Known for its high-altitude coffee with bright acidity and fruity undertones."
+          },
+          {
             region: "Opalaca: Offers coffee with floral and citrus notes, highlighting a delicate and complex profile."
-        }
+          }
     ]
 },
 brewingMethods: {

@@ -9,8 +9,7 @@ const italyData = {
         Espresso became the foundation for many iconic Italian coffee drinks and is central to the Italian coffee ritual. \
         Coffee culture in Italy is defined by tradition, with strict etiquette and practices surrounding its consumption."
     },
-    regionalPreparations: {
-        traditional: [
+    regionalPreparations: [
             {
                 name: "Espresso",
                 description: "A small, concentrated shot of coffee brewed under high pressure. \
@@ -26,8 +25,7 @@ const italyData = {
                 description: "Espresso 'stained' with a small amount of milk or milk foam. \
                 This drink is perfect for those who prefer a touch of creaminess with their coffee."
             }
-        ]
-    },
+    ],
     interestingFacts: {
         traditions: [
             "Italians often drink their coffee standing at the bar rather than sitting down, especially for a quick espresso.",

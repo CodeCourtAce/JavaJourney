@@ -13,8 +13,12 @@ const unitedStatesData = {
         The beans are hand-picked and sun-dried, contributing to their exceptional quality.",
         regions: [
             {
-                region: "Kona, Hawaii: Renowned for its premium Arabica coffee with a smooth, well-balanced flavor.",
-                region: "Maui, Hawaii: Produces coffee with hints of spice and chocolate, often grown at lower altitudes.",
+                region: "Kona, Hawaii: Renowned for its premium Arabica coffee with a smooth, well-balanced flavor."
+            },
+            {
+                region: "Maui, Hawaii: Produces coffee with hints of spice and chocolate, often grown at lower altitudes."
+            },
+            {
                 region: "Kauai, Hawaii: Known for milder coffee with a bright, fruity profile."
             }
         ]
@@ -24,8 +28,7 @@ const unitedStatesData = {
         The 'coffee break' originated in the United States as a workplace ritual, emphasizing coffee`s role in productivity and social interaction.",
         modern: "The U.S. has been instrumental in shaping global coffee trends, particularly with the rise of specialty coffee and chains like Starbucks, which popularized espresso-based drinks like lattes and frappuccinos."
     },
-    regionalPreparations: {
-        traditional: [
+    regionalPreparations: [
             {
                 name: "Drip Coffee",
                 description: "A hallmark of American coffee culture, brewed using drip coffee makers for a consistent, mild cup."
@@ -38,8 +41,7 @@ const unitedStatesData = {
                 name: "Iced Coffee",
                 description: "A chilled version of brewed coffee, often served sweetened or with milk."
             }
-        ]
-    },
+    ],
     interestingFacts: {
         traditions: [
             "Americans consume approximately 400 million cups of coffee daily, making the U.S. one of the largest coffee consumers in the world.",

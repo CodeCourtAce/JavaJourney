@@ -15,8 +15,12 @@ const ivoryCoastData = {
         These beans are often used in blends and for espresso due to their rich crema and intense flavor profile.",
         regions: [
             {
-                region: "Divo: Known for robusta beans with a smooth and balanced flavor.",
-                region: "Man: Produces coffee with earthy and nutty undertones.",
+                region: "Divo: Known for robusta beans with a smooth and balanced flavor."
+            },
+            {
+                region: "Man: Produces coffee with earthy and nutty undertones."
+            },
+            {
                 region: "San Pedro: Known for high-yield coffee farms and bold flavor profiles."
             }
         ]
