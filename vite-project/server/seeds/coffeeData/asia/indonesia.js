@@ -17,10 +17,14 @@ const indonesiaData = {
         Each island produces beans with distinct characteristics, often shaped by the local terroir and processing methods.",
         regions: [
             {
-                region: "Java: Known for its clean, balanced coffee with subtle nutty and chocolatey notes.",
-                region: "Sumatra: Famous for its bold, earthy coffee with hints of tobacco, cocoa, and spices.",
+                region: "Java: Known for its clean, balanced coffee with subtle nutty and chocolatey notes."
+              },
+              {
+                region: "Sumatra: Famous for its bold, earthy coffee with hints of tobacco, cocoa, and spices."
+              },
+              {
                 region: "Sulawesi: Produces smooth, rich coffee with complex flavors, often including caramel and dark chocolate."
-            }
+              }
         ]
     },
     brewingMethods: {

@@ -15,11 +15,16 @@ const brazilData = {
         The country's diverse climates and altitudes allow for the production of both Arabica and Robusta beans.",
         regions: [
             {
-                region: "Minas Gerais: Known for its specialty Arabica coffee, with sweet, nutty, and chocolate notes.",
-                region: "São Paulo: Produces balanced coffee with mild acidity, often used in blends.",
-                region: "Espírito Santo: A leading producer of Robusta coffee, known for its strong and bold flavor."
+              region: "Minas Gerais: Known for its specialty Arabica coffee, with sweet, nutty, and chocolate notes."
+            },
+            {
+              region: "São Paulo: Produces balanced coffee with mild acidity, often used in blends."
+            },
+            {
+              region: "Espírito Santo: A leading producer of Robusta coffee, known for its strong and bold flavor."
             }
-        ]
+          ]
+          
     },
     brewingMethods: {
         traditional: "One of the most popular coffee styles in Brazil is 'cafezinho,' a small, strong, and sweetened black coffee served throughout the day. \

@@ -16,10 +16,14 @@ const indiaData = {
         Common flavor notes include chocolate, nutty, and spicy undertones, often attributed to the intercropping practices.",
         regions: [
             {
-                region: "Karnataka: The largest coffee-producing state, known for its balanced and aromatic coffee.",
-                region: "Kerala: Produces coffee with a rich body and subtle spice notes.",
+                region: "Karnataka: The largest coffee-producing state, known for its balanced and aromatic coffee."
+              },
+              {
+                region: "Kerala: Produces coffee with a rich body and subtle spice notes."
+              },
+              {
                 region: "Tamil Nadu: Known for its bright and fruity coffee, especially from the Nilgiris region."
-            }
+              }
         ]
     },
     brewingMethods: {

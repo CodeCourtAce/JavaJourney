@@ -16,10 +16,14 @@ const vietnamData = {
         Robusta beans dominate production, contributing to a higher caffeine content and a stronger, slightly bitter taste compared to Arabica.",
         regions: [
             {
-                region: "Central Highlands: The heart of Vietnam`s coffee industry, including provinces like Dak Lak and Lam Dong.",
-                region: "Buon Ma Thuot: Known as the 'coffee capital' of Vietnam, producing high-quality robusta beans.",
+                region: "Central Highlands: The heart of Vietnam's coffee industry, including provinces like Dak Lak and Lam Dong."
+              },
+              {
+                region: "Buon Ma Thuot: Known as the 'coffee capital' of Vietnam, producing high-quality robusta beans."
+              },
+              {
                 region: "Son La: A newer region producing Arabica coffee with mild, fruity notes."
-            }
+              }              
         ]
     },
     brewingMethods: {

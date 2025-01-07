@@ -14,8 +14,12 @@ const kenyaData = {
         It often features notes of blackcurrant, tomato, and wine-like undertones, making it highly sought after by specialty coffee roasters.",
         regions: [
             {
-                region: "Nyeri: Known for coffee with a bright acidity and notes of blackcurrant and citrus.",
-                region: "Kirinyaga: Produces beans with a rich body and complex fruity flavors.",
+                region: "Nyeri: Known for coffee with a bright acidity and notes of blackcurrant and citrus."
+            },
+            {
+                region: "Kirinyaga: Produces beans with a rich body and complex fruity flavors."
+            },
+            {
                 region: "Embu: Known for vibrant coffee with hints of berry and a silky mouthfeel."
             }
         ]

@@ -16,8 +16,12 @@ const columbiaData = {
         Its medium body and vibrant acidity make it highly sought after in specialty markets.",
         regions: [
             {
-                region: "Eje Cafetero (Coffee Triangle): Known for balanced, smooth coffee with nutty and fruity notes.",
-                region: "Huila: Produces high-altitude coffee with bright acidity and floral, citrus flavors.",
+                region: "Eje Cafetero (Coffee Triangle): Known for balanced, smooth coffee with nutty and fruity notes."
+            },
+            {
+                region: "Huila: Produces high-altitude coffee with bright acidity and floral, citrus flavors."
+            },
+            {
                 region: "Nariño: Offers sweet, fruity coffee with vibrant acidity and complex profiles."
             }
         ]
