@@ -12,8 +12,7 @@ const canadaData = {
         The phrase 'double-double,' referring to coffee with two creams and two sugars, has become a hallmark of Canadian coffee culture.",
         modern: "Canada`s urban centers have embraced the specialty coffee movement, with an increasing focus on single-origin beans, innovative brewing techniques, and artisanal coffee roasters."
     },
-    regionalPreparations: {
-        traditional: [
+    regionalPreparations: [
             {
                 name: "Double-Double",
                 description: "A Canadian classic, referring to coffee with two creams and two sugars, popularized by Tim Hortons."
@@ -26,8 +25,7 @@ const canadaData = {
                 name: "Maple Coffee",
                 description: "A coffee drink sweetened with maple syrup, reflecting Canada`s culinary heritage."
             }
-        ]
-    },
+    ],
     interestingFacts: {
         traditions: [
             "Tim Hortons, Canada`s largest coffee chain, serves over 5 million cups of coffee daily, making it a cultural icon.",

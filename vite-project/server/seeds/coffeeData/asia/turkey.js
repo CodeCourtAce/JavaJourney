@@ -14,10 +14,15 @@ const turkeyData = {
         The beans are roasted to a medium-dark level to achieve a rich, bold flavor with low acidity.",
         regions: [
             {
-                region: "Istanbul: The historic center of Turkish coffee culture, with iconic coffee houses.",
-                region: "Anatolia: Known for maintaining traditional brewing techniques passed down through generations.",
+                region: "Istanbul: The historic center of Turkish coffee culture, with iconic coffee houses."
+              },
+              {
+                region: "Anatolia: Known for maintaining traditional brewing techniques passed down through generations."
+              },
+              {
                 region: "Izmir: A coastal city with a thriving café culture blending traditional and modern styles."
-            }
+              }
+              
         ]
     },
     brewingMethods: {

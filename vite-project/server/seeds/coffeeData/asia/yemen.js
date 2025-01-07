@@ -14,10 +14,14 @@ const yemenData = {
         The beans are dry-processed, which contributes to their distinct taste and heavy body.",
         regions: [
             {
-                region: "Haraaz: Known for fruity and floral flavors with a balanced acidity.",
-                region: "Ibb: Produces coffee with rich, wine-like undertones and bold flavors.",
+                region: "Haraaz: Known for fruity and floral flavors with a balanced acidity."
+              },
+              {
+                region: "Ibb: Produces coffee with rich, wine-like undertones and bold flavors."
+              },
+              {
                 region: "Bura: Recognized for its earthy, spiced profile with hints of dried fruit."
-            }
+              }
         ]
     },
     brewingMethods: {

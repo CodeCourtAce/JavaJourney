@@ -18,8 +18,12 @@ const ethiopiaData = {
         They are often processed using both washed (wet) and natural (dry) methods, each bringing out unique characteristics.",
         regions: [
             {
-                region: "Yirgacheffe: Known for floral, tea-like notes with citrus or berry undertones.",
-                region: "Sidamo: Produces sweet, fruity coffee with a balanced acidity and complex flavors.",
+                region: "Yirgacheffe: Known for floral, tea-like notes with citrus or berry undertones."
+            },
+            {
+                region: "Sidamo: Produces sweet, fruity coffee with a balanced acidity and complex flavors."
+            },
+            {
                 region: "Harrar: Recognized for bold, wine-like flavors with hints of berries and chocolate."
             }
         ]

@@ -8,8 +8,7 @@ const greeceData = {
         culturalSignificance: "Coffee is deeply intertwined with Greek culture, symbolizing hospitality and leisure. \
         Greeks often take their time enjoying coffee, making it a centerpiece of social gatherings and everyday life."
     },
-    regionalPreparations: {
-        traditional: [
+    regionalPreparations: [
             {
                 name: "Greek Coffee",
                 description: "Brewed in a 'briki,' a small long-handled pot, using finely ground coffee. \
@@ -25,8 +24,7 @@ const greeceData = {
                 description: "Modern Greek coffee drinks made by whipping hot espresso with ice for a cold, smooth beverage. \
                 Freddo Cappuccino adds a layer of frothy milk foam on top."
             }
-        ]
-    },
+    ],
     interestingFacts: {
         traditions: [
             "Coffee is often accompanied by small treats, such as 'loukoumi' (Turkish delight) or 'koulouri' (sesame bread rings).",

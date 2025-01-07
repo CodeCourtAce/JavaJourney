@@ -7,8 +7,7 @@ const franceData = {
         culturalSignificance: "Coffeehouses played a vital role in France’s social and intellectual life, becoming gathering places for discussions on art, politics, and philosophy. \
         The French Revolution was famously fueled by ideas exchanged in coffeehouses, making them a symbol of free thought."
     },
-    regionalPreparations: {
-        traditional: [
+    regionalPreparations: [
             {
                 name: "Café au Lait",
                 description: "A classic French preparation made with equal parts brewed coffee and steamed milk. \
@@ -22,8 +21,7 @@ const franceData = {
                 name: "Noisette",
                 description: "A shot of espresso 'stained' with a small amount of steamed milk, similar to an Italian macchiato."
             }
-        ]
-    },
+    ],
     interestingFacts: {
         traditions: [
             "French coffee culture is associated with leisurely mornings at cafés, where coffee is sipped slowly alongside pastries.",

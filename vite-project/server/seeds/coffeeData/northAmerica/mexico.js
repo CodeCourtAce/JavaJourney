@@ -12,8 +12,12 @@ const mexicoData = {
         Beans from high-altitude regions often have fruity and floral notes.",
         regions: [
             {
-                region: "Chiapas: Produces high-quality Arabica beans with bright acidity and floral undertones.",
-                region: "Veracruz: Known for balanced coffee with nutty and chocolatey flavors.",
+                region: "Chiapas: Produces high-quality Arabica beans with bright acidity and floral undertones."
+            },
+            {
+                region: "Veracruz: Known for balanced coffee with nutty and chocolatey flavors."
+            },
+            {
                 region: "Oaxaca: Offers coffee with complex profiles, including notes of caramel, citrus, and tropical fruit."
             }
         ]
@@ -24,8 +28,7 @@ const mexicoData = {
         modern: "In urban areas, specialty coffee shops are thriving, offering single-origin Mexican beans and modern brewing techniques. \
         Mexico has become a prominent player in the global specialty coffee movement."
     },
-    regionalPreparations: {
-        traditional: [
+    regionalPreparations: [
             {
                 name: "Café de Olla",
                 description: "A traditional Mexican coffee brewed with cinnamon and piloncillo (unrefined cane sugar) in a clay pot, giving it a unique, spiced flavor."
@@ -38,8 +41,7 @@ const mexicoData = {
                 name: "Espresso-Based Drinks",
                 description: "In modern cafes, espresso is used to create cappuccinos, lattes, and cortados, often highlighting Mexican beans."
             }
-        ]
-    },
+    ],
     interestingFacts: {
         traditions: [
             "Chiapas and Oaxaca are considered the heart of Mexico`s coffee culture, producing some of the country`s most sought-after beans.",

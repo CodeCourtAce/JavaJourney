@@ -13,8 +13,12 @@ const peruData = {
         The high-altitude growing conditions contribute to the beans' complex and clean profiles.",
         regions: [
             {
-                region: "Chanchamayo: Known for its smooth, balanced coffee with bright acidity and hints of citrus.",
-                region: "Cajamarca: Produces high-quality coffee with floral and chocolatey notes.",
+                region: "Chanchamayo: Known for its smooth, balanced coffee with bright acidity and hints of citrus."
+            },
+            {
+                region: "Cajamarca: Produces high-quality coffee with floral and chocolatey notes."
+            },
+            {
                 region: "Puno: Offers coffee with nutty undertones, mild acidity, and a rich body."
             }
         ]
