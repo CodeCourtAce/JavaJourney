@@ -87,7 +87,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%; /* Ensure full width */
+  background-color: #000; /* Match the background color */
 }
+
 
 /* Header */
 .header {
@@ -528,4 +531,3 @@ body {
 .home-button:active {
   transform: translateY(0);
 }
-
