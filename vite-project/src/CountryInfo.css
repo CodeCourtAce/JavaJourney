@@ -1,40 +1,41 @@
-.country-info-card {
-    background-color: #2a2a2a;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px; /* Adjust width for the card size */
-    box-shadow: 0 4px 8px #00000033;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-    color: #d4af7a; /* Coffee gold color */
-    margin-bottom: 10px;
-  }
-  
-  .card-subtitle {
-    font-size: 1.2rem;
-    color: #ccc;
-    margin-bottom: 15px;
-  }
-  
-  .card-content {
-    font-size: 1rem;
-    text-align: left;
-    background-color: #1a1a1a;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto; /* Allow scrolling for long text */
-  }
-  
-  .loading-message {
-    font-size: 1.2rem;
-    color: #ccc;
-  }
+.country-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
-  
-  
+.card {
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  text-align: left;
+}
+
+.card h3 {
+  color: #d4af7a;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d4af7a;
+}
+
+.card p,
+.card ul {
+  font-size: 1rem;
+  color: #fefdfa;
+  line-height: 1.5;
+}
+
+.card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.card strong {
+  color: #fefdfa;
+}
