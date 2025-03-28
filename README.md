@@ -40,3 +40,6 @@ For any questions, please contact us at:
 #### GitHub: https://github.com/CodeCourtAce/JavaJourney
 
 #### Deployed Link: https://javajourney3.netlify.app
+
+![image](https://github.com/user-attachments/assets/74163ada-1c65-482f-9273-7914a4b34c86)
+
